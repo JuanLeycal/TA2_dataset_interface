@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <dataset msg="Welcome to Your Vue.js App"/>
+    <dataset></dataset>
   </div>
 </template>
 
 <script>
-import dataset from './components/dataset.vue'
+
+import Dataset from './components/Dataset.vue'
 
 export default {
   name: 'App',
   components: {
-    dataset
+    Dataset,
   }
 }
 </script>
