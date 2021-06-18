@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <dataset></dataset>
+    <!-- <dataset></dataset> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
-import Dataset from './components/Dataset.vue'
+// import Dataset from './components/Dataset.vue'
 
 export default {
   name: 'App',
   components: {
-    Dataset,
+    // Dataset,
   }
 }
 </script>
