@@ -25,7 +25,7 @@
                 
             </tr>
             <tr v-for="(kmean, kindex) in kmeans" v-bind:key="kindex" >
-                <td >{{ kmean.group_id }}</td>
+                <td>{{ kmean.group_id }}</td>
                 <td>{{ kmean.edad }}</td>
                 <td>{{ kmean.total_afiliados }}</td>
                 <td>{{ kmean.fecha_corte }}</td>
